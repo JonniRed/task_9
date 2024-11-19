@@ -1,0 +1,73 @@
+.rewiev {
+  width: 100%;
+  background-color: #f7f2ea;
+  padding-bottom: 30px;
+
+  @media (max-width: 768px) {
+    padding-bottom: 54px;
+  }
+  @media (max-width: 480px) {
+    width: 480px;
+    column-gap: 20px;
+    padding-bottom: 15px;
+  }
+}
+.rewiev .h2 {
+  margin: 60px auto;
+  padding-left: 20px;
+
+  @media (max-width: 480px) {
+    margin: 52px auto;
+    padding-left: 0;
+  }
+}
+.rew-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 26px;
+
+  @media (max-width: 768px) {
+    max-width: 83%;
+    column-gap: 76px;
+  }
+  @media (max-width: 480px) {
+    max-width: 460px;
+    column-gap: 20px;
+    justify-content: space-between;
+  }
+}
+.rew-item {
+  width: 280px;
+  margin-bottom: 30px;
+
+  @media (max-width: 480px) {
+    width: 220px;
+  }
+}
+.rew-p,
+.rew-p-bold {
+  font-family: "Open Sans Light";
+  font-style: oblique;
+  font-size: 13px;
+}
+.rew-p {
+  font-family: "Open Sans LightItalic";
+  margin-bottom: 10px;
+  font-size: 16px;
+
+  @media (max-width: 480px) {
+    word-spacing: 1px;
+  }
+}
+// .rew-item:first-child .rew-p {
+//   width: 264px;
+//   word-spacing: 0.6px;
+// }
+.rew-p-bold {
+  font-family: "Open Sans Semibold";
+  font-size: 20px;
+  font-style: normal;
+}

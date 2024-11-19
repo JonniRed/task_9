@@ -1,0 +1,46 @@
+.section-explore_our_collection {
+  margin-bottom: 148px;
+  @media (max-width: 768px) {
+    margin-bottom: 120px;
+  }
+
+  @media (max-width: 480px) {
+    margin-bottom: 65px;
+  }
+}
+.section-explore_our_collection .h2 {
+  margin-bottom: 60px;
+  margin-left: 11px;
+
+  @media (max-width: 768px) {
+    margin-top: 15px;
+    margin-bottom: 38px;
+    margin-left: 95px;
+  }
+}
+.tea-collection {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    gap: 2%;
+  }
+}
+.tea-collection .element {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.tea-img {
+  margin-bottom: 10px;
+
+  @media (max-width: 480px) {
+    margin-bottom: 5px;
+  }
+}
+.tea-p {
+  font-family: "Cormorant Regular";
+  font-size: 24px;
+}
