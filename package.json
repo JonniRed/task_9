@@ -1,0 +1,23 @@
+{
+  "name": "task_9",
+  "version": "1.0.0",
+  "description": "Task #9, practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonniRed/task_9.git"
+  },
+  "author": "Olga Paderina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonniRed/task_9/issues"
+  },
+  "homepage": "https://github.com/JonniRed/task_9#readme",
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "prettier": "^3.3.3"
+  }
+}
