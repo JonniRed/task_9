@@ -666,6 +666,10 @@ section {
     background-color: #000;
   }
 }
+.red-color {
+  background-color: tomato;
+}
+
 .header {
   display: flex;
   width: 1200px;
